@@ -18,6 +18,6 @@ type FileInfo struct {
 	Owner       string      `yaml:"owner,omitempty" json:"owner,omitempty"`
 	Group       string      `yaml:"group,omitempty" json:"group,omitempty"`
 	Mode        os.FileMode `yaml:"mode,omitempty" json:"mode,omitempty"`
-	MTime       string      `yaml:"mtime,omitempty" json:"mtime,omitempty"`
+	MTime       time.Time   `yaml:"mtime,omitempty" json:"mtime,omitempty"`
 	ParsedMTime time.Time   `yaml:"-" json:"-"`
 }
