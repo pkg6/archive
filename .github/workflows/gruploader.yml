@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - uses: izhiqiang/gruploader-action@main
+    - uses: pkg6/gruploader-action@main
       with:
         github_token: ${{ secrets.GH_TOKEN }}
         action: golangs
