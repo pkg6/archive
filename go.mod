@@ -1,9 +1,9 @@
 module github.com/pkg6/archive
 
-go 1.18
+go 1.24
 
 require (
-	github.com/klauspost/compress v1.17.2
+	github.com/klauspost/compress v1.18.7
 	github.com/klauspost/pgzip v1.2.6
 	github.com/stretchr/testify v1.10.0
 	github.com/ulikunitz/xz v0.5.15
